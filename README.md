@@ -1,31 +1,29 @@
-# Algorithm Performance Visualizer 📊
+# 📊 Algorithm Performance Visualizer
 
-A Java Swing application for benchmarking and visualizing the performance of common searching and sorting algorithms. The application allows users to compare execution time across different input sizes, visualize performance trends, and explore the theoretical time and space complexity of each algorithm.
+A Java Swing application for benchmarking and visualizing the performance of common searching, sorting, and recursion algorithms. It allows users to compare execution time across different input sizes and explore the theoretical time and space complexity of each algorithm.
 
 ---
 
-## Features
+## ✨ Features
 
-- Compare the performance of multiple algorithms on the same dataset.
-- Interactive execution-time graphs.
-- Displays:
-  - Best, Average, and Worst execution time
+- 📈 Interactive performance graphs
+- ⚡ Compare multiple algorithms simultaneously
+- 🧮 Displays:
+  - Best, Average & Worst execution time
   - Median execution time
   - Peak memory usage
-- Supports different input sizes and step intervals.
-- Multiple data order options:
-  - Random
-  - Ascending
-  - Descending
-  - Nearly Sorted
-- Built-in algorithm encyclopedia with complexity information.
-- Export benchmark results as HTML or CSV reports.
-- Run history for previous benchmark sessions.
-- Desktop interface developed using Java Swing.
+- 📚 Built-in algorithm encyclopedia with complexity information
+- ⚙️ Customizable input:
+  - Minimum & Maximum input size
+  - Step size
+  - Data order (Random, Ascending, Descending, Nearly Sorted)
+- 📄 Export benchmark reports (HTML/CSV)
+- 🕒 Run history to review previous benchmark sessions
+- 🌙 Modern dark-themed Java Swing interface
 
 ---
 
-## Implemented Algorithms
+## 🔍 Supported Algorithms
 
 ### Searching
 - Linear Search
@@ -47,87 +45,81 @@ A Java Swing application for benchmarking and visualizing the performance of com
 
 ---
 
-## Complexity Information
+## 📖 Complexity Information
 
-For each supported algorithm, the application provides:
+For every algorithm, the application provides:
 
-- Best Case Time Complexity
-- Average Case Time Complexity
-- Worst Case Time Complexity
-- Space Complexity
-- Brief algorithm description
-
----
-
-## Technologies Used
-
-- Java
-- Java Swing
-- JFreeChart (for graphs)
-- Java Collections Framework
+- ✅ Best Case Time Complexity
+- ✅ Average Case Time Complexity
+- ✅ Worst Case Time Complexity
+- ✅ Space Complexity
+- ✅ Brief algorithm description
 
 ---
 
-## Screenshots
+## 🛠️ Technologies Used
+
+- ☕ Java
+- 🖥️ Java Swing
+- 📊 JFreeChart
+- 📦 Java Collections Framework
+
+---
+
+## 📸 Screenshots
 
 ### Dashboard
-
-> Add dashboard screenshot here
+![Dashboard](images/dashboard.png)
 
 ### Performance Comparison
-
-> Add comparison screenshot here
+![Comparison](images/comparison.png)
 
 ### Algorithm Encyclopedia
-
-> Add encyclopedia screenshot here
-
----
-
-## How to Run
-
-### Clone the repository
-
-```bash
-git clone https://github.com/theharshitrana/Time-Complexity.git
-```
-
-### Compile
-
-```bash
-javac AlgorithmPerformanceVisualizer.java
-```
-
-### Run
-
-```bash
-java AlgorithmPerformanceVisualizer
-```
+![Encyclopedia](images/encyclopedia.png)
 
 ---
 
-## Project Structure
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java JDK 17 or later
+- An IDE such as IntelliJ IDEA, Eclipse, or VS Code
+
+### Run the Project
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/theharshitrana/Time-Complexity.git
+   ```
+
+2. Open the project in your preferred Java IDE.
+
+3. Run `AlgorithmPerformanceVisualizer.java`.
+
+---
+
+## 📂 Project Structure
 
 ```
-AlgorithmPerformanceVisualizer.java
-README.md
-images/
+Time-Complexity/
+│── AlgorithmPerformanceVisualizer.java
+│── README.md
+└── images/
 ```
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Additional algorithms
-- More visualization options
-- Theme customization
-- Algorithm animation
-- Performance comparison reports
+- 🎬 Algorithm animations
+- 🤖 AI-based algorithm explanations
+- 📊 More comparison metrics
+- 🎨 Additional UI themes
+- ➕ Support for more algorithms
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-**Harsh Jaimani**
-
-GitHub: https://github.com/theharshitrana
+**Harshit**
